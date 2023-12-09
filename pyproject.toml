@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-web-chat"
+version = "0.1.0"
+description = ""
+authors = []
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^3.0.0"
+flask-socketio = "^5.3.6"
+gunicorn = "^21.2.0"
+eventlet = "^0.33.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
